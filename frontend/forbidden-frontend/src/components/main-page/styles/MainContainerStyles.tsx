@@ -1,12 +1,13 @@
-import { styled } from "styled-components"
+import { styled } from "styled-components";
 
-export const MainContainerStyles = styled.div `
+export const MainContainerStyles = styled.div`
+	width: 100vw;
 
-
-    .video {
-        top: 0;
-        left: 0;
-        width: 100vw;
-        z-index: 1;
-    }
+	.video-background {
+		position: absolute;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
 `;

@@ -1,14 +1,12 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
-import MainPageContainer from './components/main-page/MainPageContainer';
+import AnimateRoutes from './components/routes/AnimatedRoutes';
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Routes>
-          <Route path='/' Component={MainPageContainer} />
-        </Routes>
+        <AnimateRoutes />
       </Router>
     </div>
   );
