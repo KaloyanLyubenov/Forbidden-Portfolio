@@ -27,7 +27,7 @@ function AboutUsSection() {
 					</span>
 				</div>
 				<div>
-					<Button />
+					<Button onClick={() => {}} text={"Learn More"} />
 				</div>
 			</div>
 		</AboutUsSectionStyles>
