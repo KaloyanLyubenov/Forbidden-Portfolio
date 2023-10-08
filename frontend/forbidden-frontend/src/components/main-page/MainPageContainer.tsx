@@ -2,6 +2,7 @@ import Button from "../small-components/Button";
 import AboutUsSection from "./AboutUsSection";
 import HeadingSection from "./HeadingSection";
 import LogoContainer from "./LogoContainer";
+import ServicesSection from "./ServicesSection";
 import { MainContainerStyles } from "./styles/MainContainerStyles";
 
 const BACKGROUND_VIDEO = `${process.env.PUBLIC_URL}/website_video.mp4`;
@@ -17,6 +18,7 @@ const MainPageContainer = () => {
 			</div>
 			<HeadingSection />
 			<AboutUsSection />
+			<ServicesSection />
 		</MainContainerStyles>
 	);
 };
