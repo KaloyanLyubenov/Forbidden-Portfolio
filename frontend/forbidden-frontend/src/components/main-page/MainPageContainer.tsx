@@ -2,6 +2,7 @@ import Button from "../small-components/Button";
 import AboutUsSection from "./AboutUsSection";
 import HeadingSection from "./HeadingSection";
 import LogoContainer from "./LogoContainer";
+import PortfolioSection from "./PortfolioSection";
 import ServicesSection from "./ServicesSection";
 import { MainContainerStyles } from "./styles/MainContainerStyles";
 
@@ -19,6 +20,7 @@ const MainPageContainer = () => {
 			<HeadingSection />
 			<AboutUsSection />
 			<ServicesSection />
+			<PortfolioSection />
 		</MainContainerStyles>
 	);
 };
