@@ -64,7 +64,7 @@ export const LetsCreateSectionStyled = styled.div<Props>`
 
 	.main p {
 		margin: 0;
-		font-size: 8vw;
+		font-size: 7vw;
 		text-align: left;
 		color: rgb(30, 30, 30);
 	}

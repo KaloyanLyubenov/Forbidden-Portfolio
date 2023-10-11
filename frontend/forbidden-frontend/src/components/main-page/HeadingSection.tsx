@@ -1,4 +1,4 @@
-import { HeadingSectionStyles } from "./styles/HeaingSectionStyles";
+import { HeadingSectionStyles } from "./styles/HeadingSectionStyles";
 
 const HeadingSection = () => {
 	return (

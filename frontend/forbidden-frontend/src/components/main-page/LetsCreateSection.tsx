@@ -22,7 +22,7 @@ function LetsCreateSection() {
 	return (
 		<LetsCreateSectionStyled shouldAnimate={shouldAnimate}>
 			<div className="main">
-				<p>LET'S CREATE TOMOROW TODAY.</p>
+				<p>UNVEILING YOR STORIES THROUGH MY LENS.</p>
 				<div className="buttons">
 					<Button onClick={() => {}} text={"Let's Create"} />
 					<Button onClick={() => {}} text={"Contact"} />
